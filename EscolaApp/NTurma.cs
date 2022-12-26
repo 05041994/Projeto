@@ -18,5 +18,26 @@ namespace EscolaApp
         {
             return turmas;
         }
+
+        public static void Atualizar(Turma t)
+        {
+            foreach(Turma obj in turmas)
+            {
+                if(obj.id == t.id)
+                {
+                    obj.Curso = t.Curso;
+                    obj.Descrição = t.Descrição;
+                    obj.AnoLetivo = t.AnoLetivo;
+                }
+            }
+        }
+        public static void Excluir(Turma t)
+        {
+            Turma x = null;
+            foreach (Turma obj in turmas)
+                if (obj.id == t.id) x = obj;
+            if (x != null) turmas.Remove(x);
+        }
+
     }
 }

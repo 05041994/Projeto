@@ -23,5 +23,49 @@ namespace EscolaApp
         {
             InitializeComponent();
         }
+
+        private void InserirClick(object sender, RoutedEventArgs e)
+        {
+            Turma t = new Turma();
+            t.id = int.Parse(txtid.Text);
+            t.Curso = txtCurso.Text;
+            t.Descrição = txtTurma.Text;
+            t.AnoLetivo = int.Parse(txtAno.Text);
+            //InserirClick a turma na lista de turmas
+
+            NTurma.Inserir(t);
+            ListarClick(sender, e);
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            listTurmas.ItemsSource = null;
+            listTurmas.ItemsSource = NTurma.Listar();
+
+        }
+
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+            Turma t = new Turma();
+            t.id = int.Parse(txtid.Text);
+            t.Curso = txtCurso.Text;
+            t.Descrição = txtTurma.Text;
+            t.AnoLetivo = int.Parse(txtAno.Text);
+            //InserirClick a turma na lista de turmas
+
+            NTurma.Atualizar(t);
+            ListarClick(sender, e);
+
+
+        }
+
+        private void ExcluirClick(object sender, RoutedEventArgs e)
+        {
+            Turma t = new Turma();
+            t.id = int.Parse(txtid.Text);
+
+            NTurma.Excluir(t);
+            ListarClick(sender, e);
+        }
     }
 }
