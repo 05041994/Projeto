@@ -1,4 +1,4 @@
-﻿<Window x:Class="EscolaApp.Janela_Turma"
+<Window x:Class="EscolaApp.Janela_Turma"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -19,7 +19,7 @@
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="142,72,0,0" VerticalAlignment="Top"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="185,72,0,0" VerticalAlignment="Top"/>
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="247,72,0,0" VerticalAlignment="Top"/>
-        <ListBox Name="listTurmas" Margin="10,97,10,10"/>
+        <ListBox Name="listTurmas" Margin="10,97,10,10" SelectionChanged="listTurmas_SelectionChanged"/>
 
     </Grid>
 </Window>
