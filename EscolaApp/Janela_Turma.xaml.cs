@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,6 +66,19 @@ namespace EscolaApp
 
             NTurma.Excluir(t);
             ListarClick(sender, e);
+        }
+
+        private void listTurmas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(listTurmas.SelectedItem != null)
+            {
+                Turma obj = (Turma)listTurmas.SelectedItem;
+
+                txtid.Text = obj.id.ToString();
+                txtCurso.Text = obj.Curso;
+                txtTurma.Text = obj.Descrição;
+                txtAno.Text = obj.AnoLetivo.ToString();
+            }
         }
     }
 }
