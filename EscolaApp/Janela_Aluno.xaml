@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="Janela_Aluno" Height="200" Width="300">
     <Grid>
-        
+
+        <TextBlock HorizontalAlignment="Left" Margin="4,10,0,0" Text="ID" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="150,10,0,0" Text="Matricula" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtid" HorizontalAlignment="Left" Margin="4,31,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.479,-0.026"/>
+        <TextBox Name="txtNome"  HorizontalAlignment="Left" Margin="59,31,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Margin="150,31,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="66"/>
+        <TextBlock HorizontalAlignment="Left" Margin="4,54,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtemail" HorizontalAlignment="Left" Margin="4,74,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="94,72,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="142,72,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="185,72,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="247,72,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="listAluno" Margin="10,102,10,10" SelectionChanged="listAluno_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="220,11,0,0" Text="idturma" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        </TextBlock>
+        <TextBox Name="txtidturma" HorizontalAlignment="Left" Margin="221,31,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="69"/>
+
     </Grid>
 </Window>
