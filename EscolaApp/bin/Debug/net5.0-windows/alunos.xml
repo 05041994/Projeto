@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Aluno>
+    <id>13</id>
+    <Nome>dsfda</Nome>
+    <Matricula>1565</Matricula>
+    <Email>gabriel</Email>
+    <Idturma>456</Idturma>
+  </Aluno>
+  <Aluno>
+    <id>132</id>
+    <Nome>dsfdasdf</Nome>
+    <Matricula>156543</Matricula>
+    <Email>gabriel@gmal</Email>
+    <Idturma>456</Idturma>
+  </Aluno>
+  <Aluno>
+    <id>1</id>
+    <Nome>Gabriel Santa</Nome>
+    <Matricula>1</Matricula>
+    <Email>24</Email>
+    <Idturma>456</Idturma>
+  </Aluno>
+  <Aluno>
+    <id>12</id>
+    <Nome>Gabriel Santa</Nome>
+    <Matricula>1</Matricula>
+    <Email>24</Email>
+    <Idturma>456</Idturma>
+  </Aluno>
+  <Aluno>
+    <id>2159</id>
+    <Nome>heitor</Nome>
+    <Matricula>5555</Matricula>
+    <Email>hietor@gmali</Email>
+    <Idturma>123</Idturma>
+  </Aluno>
+  <Aluno>
+    <id>2160</id>
+    <Nome>hgfsasd</Nome>
+    <Matricula>159</Matricula>
+    <Email>gabriel.SAnta</Email>
+    <Idturma>59</Idturma>
+  </Aluno>
+</ArrayOfAluno>

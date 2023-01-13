@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="300">
-
     <Grid>
+        
         <Button Click="Turma_Click" Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top"/>
         <Button Click="Aluno_Click" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="24,49,0,0" VerticalAlignment="Top"/>
         <Button Click="Matricula_Click" Content="Matricular Aluno" HorizontalAlignment="Left" Margin="24,74,0,0" VerticalAlignment="Top"/>

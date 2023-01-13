@@ -15,6 +15,11 @@ namespace EscolaApp
         public static void Inserir(Aluno t)
         {
             Abrir();
+
+            int id = 0;
+            foreach (Aluno obj in alunos)
+                if (obj.id > id) id = obj.id;
+            t.id = id + 1;
             alunos.Add(t);
             Salvar();
         }
@@ -78,6 +83,21 @@ namespace EscolaApp
             xml.Serialize(f, alunos);
 
             f.Close();
+        }
+        public static void Matricular(Aluno a, Turma t)
+        {
+            a.Idturma = t.id;
+            Atualizar(a);
+
+        }
+        public static List<Aluno> Listar(Turma t)
+        {
+            Abrir();
+            List<Aluno> diario = new List<Aluno>();
+
+            foreach (Aluno obj in alunos)
+                if (obj.Idturma == t.id) diario.Add(obj);
+            return diario;
         }
     }
 }

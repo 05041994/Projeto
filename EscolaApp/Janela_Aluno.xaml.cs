@@ -32,6 +32,7 @@ namespace EscolaApp
             A.Matricula = int.Parse(txtMatricula.Text);
             A.Email = txtemail.Text;
             A.Idturma = int.Parse(txtidturma.Text);
+
             //InserirClick a turma na lista de aluno
 
             NAluno.Inserir(A);

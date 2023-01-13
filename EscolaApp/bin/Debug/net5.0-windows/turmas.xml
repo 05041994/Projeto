@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTurma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Turma>
+    <id>456</id>
+    <Curso>Informatica </Curso>
+    <Descrição>213</Descrição>
+    <AnoLetivo>2005</AnoLetivo>
+  </Turma>
+  <Turma>
+    <id>123</id>
+    <Curso>IRIS</Curso>
+    <Descrição>222</Descrição>
+    <AnoLetivo>2012</AnoLetivo>
+  </Turma>
+  <Turma>
+    <id>123</id>
+    <Curso>IRIS</Curso>
+    <Descrição>222</Descrição>
+    <AnoLetivo>2012</AnoLetivo>
+  </Turma>
+  <Turma>
+    <id>25</id>
+    <Curso>Infrosda</Curso>
+    <Descrição>Informatica</Descrição>
+    <AnoLetivo>2023</AnoLetivo>
+  </Turma>
+  <Turma>
+    <id>12</id>
+    <Curso>Knlsadas</Curso>
+    <Descrição>159</Descrição>
+    <AnoLetivo>2005</AnoLetivo>
+  </Turma>
+  <Turma>
+    <id>457</id>
+    <Curso>dsad</Curso>
+    <Descrição>dads</Descrição>
+    <AnoLetivo>159</AnoLetivo>
+  </Turma>
+  <Turma>
+    <id>458</id>
+    <Curso>dsad</Curso>
+    <Descrição>dads</Descrição>
+    <AnoLetivo>159</AnoLetivo>
+  </Turma>
+</ArrayOfTurma>
